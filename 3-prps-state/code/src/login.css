@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    border: .8px solid gainsboro;
+    width: 400px;
+    padding: 3rem 1rem;
+    margin-top: 2rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.input-group input {
+    border: .8px solid gainsboro;
+    padding: .3rem .8rem;
+}
+
+.login {
+    background-color: green;
+    width: 90%;
+    border: none;
+    padding: .7rem;
+    color: white;
+}
+
+.remember-me label {
+    margin: 1rem;
+}
+
+.cancel {
+    margin-top: 3rem;
+    background-color: red;
+    border: none;
+    padding: .7rem;
+    color: white;
+}
